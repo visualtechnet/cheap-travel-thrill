@@ -1,0 +1,53 @@
+html {
+    font-size: 2vw;
+}
+body {
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1em;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1.4em;
+}
+p.bold {
+    font-weight: bold;
+}
+p.italic {
+    font-style: italic;
+}
+p.underline {
+    text-decoration: underline;
+}
+a {
+    text-decoration: underline;
+}
+.text-primary {
+    color: #2168A6;
+}
+.text-secondary {
+    color: #F28241
+}
+.text-accent {
+    color: #66A3D9;
+}
+.bg-primary {
+    background-color: #2168A6;
+}
+.bg-secondary {
+    background-color: #F28241
+}
+.bg-accent {
+    background-color: #66A3D9;
+}
+@media screen and (min-width: 480px) {
+
+}
+@media screen and (min-width: 800px) {
+
+}
