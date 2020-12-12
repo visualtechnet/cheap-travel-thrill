@@ -7,6 +7,7 @@ Cheap Travel Thrill is a travel resource and blog about my different adventures 
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
 - [Hosted](#hosted)
+- [Solution](#solution)
 
 ## Features
 
@@ -56,3 +57,13 @@ There are no other requirements when viewing file, just a normal editor.
 
 ## Hosted Server
 [https://quizzical-volhard-d13db5.netlify.app/](https://quizzical-volhard-d13db5.netlify.app/)
+
+## Solution Specifications
+
+## Layout
+
+|   CRITERIA               |SPECIFICATIONS |
+|--------------------------|:-------------:|
+|Flexbox Based Layout      |Hero Section,  |
+|Grid Based Layout         |   |
+
