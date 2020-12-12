@@ -53,3 +53,6 @@ Go to the folder and run it locally
 ```
 
 There are no other requirements when viewing file, just a normal editor.
+
+## Hosted Server
+[https://quizzical-volhard-d13db5.netlify.app/](https://quizzical-volhard-d13db5.netlify.app/)
