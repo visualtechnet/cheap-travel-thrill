@@ -64,7 +64,7 @@ There are no other requirements when viewing file, just a normal editor.
 
 |   CRITERIA               |SPECIFICATIONS |
 |--------------------------|:-------------:|
-|Flexbox Based Layout      |Hero Section,  |
-|Grid Based Layout         |   |
+|Flexbox Based Layout      |Hero Section, A couple of sections in article, signature bio, article author subtext  |
+|Grid Based Layout         |Travel Destination Section and Random Posts   |
 
 v1.1 MAC

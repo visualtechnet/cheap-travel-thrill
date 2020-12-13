@@ -1,0 +1,40 @@
+.signature-bio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+    padding: 0;
+    background-color: #e1f3f8;
+    border: solid 1px #e1f3f8;
+}
+.signature-bio img {
+    max-width: 200px;
+    display: flex;
+    align-self: center;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    margin: 0 10px 0 10px;
+}
+.signature-bio .profile-content {
+    padding: 10px 10px 10px 30px;
+    margin: 0;
+    background-color: #ffffff;
+}
+.sharethis-inline-share-buttons {
+    float: right;
+    clear: both;
+}
+
+@media screen and (min-width: 375px)  and (max-width: 600px)  {
+    .signature-bio {
+        flex-flow: column nowrap;
+    }
+    .signature-bio img {
+        border-radius: 0;
+    }
+    #st-1.sharethis-inline-share-buttons {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+}

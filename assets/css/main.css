@@ -1,3 +1,9 @@
+@import url('./feature/hero.css');
+@import url('./feature/random-post.css');
+@import url('./feature/travel-destination.css');
+@import url('./feature/signature-bio.css');
+@import url('./component/article-info.css');
+
 html {
     font-size: 16px;
 }
@@ -7,13 +13,16 @@ body {
     font-size: 1em;
 }
 h1 {
-    font-size: 2em;
+    font-size: 2.4em;
 }
 h2 {
-    font-size: 1.6em;
+    font-size: 2em;
 }
 h3 {
-    font-size: 1.4em;
+    font-size: 1.6em;
+}
+p {
+    line-height: 1.2em;
 }
 p.bold {
     font-weight: bold;
@@ -45,191 +54,12 @@ a {
 .bg-accent {
     background-color: #66A3D9;
 }
+.usa-logo a.logo-text {
+    color: #F28241;
+    font-size: 1.5rem;
+    font-family: "Open Sans", Arial, sans-serif;
+}
 
-/* START HERO SECTION */
-.hero-main {
-    min-height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-blockquote {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: rgba(0,0,0,.3);
-}
-blockquote:before {
-    position: relative;
-    content: open-quote;
-    font-size: 3em;
-    color: #fff;
-    top: -10px;
-    left: -5px;
-}
-blockquote:after {
-    position: absolute;
-    content: close-quote;
-    bottom: -5px;
-    right: 10px;
-    font-size: 3em;
-    color: #fff;
-}
-blockquote p {
-    font-size: 1.2em;
-    color: #fff;
-    font-style: italic;
-    text-align: center;
-}
-/* END HERO SECTION */
-/* START Hero Background Images */
-.cresta-de-gallo-hero {
-    background: url('/assets/photos/cresta-de-gallo-clearwater-island-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position-y: bottom;
-}
-.emilio-aguinaldo-shrine-hero {
-    background: url('/assets/photos/emilio-aguinaldo-shrine-outside-roof-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position-y: center;
-}
-.mt-samat-hero {
-    background: url('/assets/photos/mt-samat-cross-grayscale-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position-y: center;
-}
-.lambug-beach-hero{
-    background: url('/assets/photos/lambug-beach-rocky-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position-y: center;
-}
-.fort-san-pedro-hero{
-    background: url('/assets/photos/fort-san-pedro-with-flag-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: 25% 37%;
-}
-.fort-santiago-hero{
-    background: url('/assets/photos/fort-santiago-tunnel-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: 25% 37%;
-}
-.malapascua-island-hero{
-    background: url('/assets/photos/malapascua-island-grayscale-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: 25% 37%;
-}
-.the-irako-hero{
-    background: url('/assets/photos/the-irako-cloudy-sunset-640.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position-y: 67%;
-}
-.index-beaches-hero{
-    background: url('/assets/photos/index-beaches-two-feet-sand-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position-y: 82%;
-}
-.index-wreck-diving-hero{
-    background: url('/assets/photos/index-wreck-diving-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position-y: 62%;
-}
-.index-shrine-hero{
-    background: url('/assets/photos/index-shrine-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position-y: 32%;
-}
-.index-fort-hero{
-    background: url('/assets/photos/index-fort-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position-y: 60%;
-}
-.index-main-hero{
-    background: url('/assets/photos/index-main-book-on-the-leaves-800.jpg') 0 0 no-repeat;
-    background-position-y: 60%;
-    background-size: cover;
-}
-.index-main-about-hero{
-    background: url('/assets/photos/index-main-about-philippine-globe-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position-y: 32%;
-}
-.el-nido-hero {
-    background: url('/assets/photos/el-nido-800.jpg') 0 0 no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* END Hero Images */
 /* START Main Content */
 main {
     width: 100%;
@@ -237,6 +67,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
+    padding-bottom: 20px;
+    min-height: 600px;
 }
 main .content {
     width: 75vw;
@@ -252,73 +84,21 @@ main .content {
     padding: 0;
     width: 100%;
 }
+.title {
+    color: #F28241;
+}
 
 /* END Main Content */
-/* START Travel Section */
-.travel-destinations {
-    display: grid;
-    grid-template-columns: repeat(4, 23%);
-    grid-gap: 15px;
-}
-.travel-item {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
-.travel-item img {
-    width: 400px;
-    margin-bottom: 10px;
-}
-.travel-item .travel-title {
-    font-weight: bold;
-}
-/* END Travel Section */
-/* START Random Post */
-.random-posts {
-    display: grid;
-    grid-template-columns: repeat(2, 48%)
-}
-.random-posts .random-post-item {
-    display: flex;
-    flex-flow: row nowrap;
-}
-.random-posts .random-post-item img {
-    max-width: 50px;
-}
-
-/* END Random Post */
 
 @media screen and (max-width: 414px) {
     main .content {
         width: 80vw;
     }
-    .travel-destinations {
-        grid-template-columns: repeat(auto-fill, 80%);
-    }
-    blockquote:before {
-        top: -30px;
-        left: -7px;
-    }
-    blockquote:after {
-        bottom: -5px;
-        right: 15px;
-    }
+
 }
 @media screen and (min-width: 600px) and (max-width: 800px) {
     main .content {
         width: 85vw;
     }
-    .travel-destinations {
-        grid-template-columns: repeat(auto-fill, 40%);
-    }
-    blockquote:before {
-        top: -20px;
-        left: -7px;
-    }
-    blockquote:after {
-        bottom: -5px;
-        right: 15px;
-    }
+
 }

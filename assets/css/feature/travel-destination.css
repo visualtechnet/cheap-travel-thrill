@@ -1,0 +1,34 @@
+.travel-destinations {
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-gap: 15px;
+}
+.travel-item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #2168A6;
+}
+.travel-item img {
+    width: 400px;
+    margin-bottom: 10px;
+    border: solid 1px #66A3D9;
+    box-shadow: 0 2px 3px #000;
+}
+.travel-item .travel-title {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 414px) {
+    .travel-destinations {
+        grid-template-columns: repeat(auto-fill, 80%);
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .travel-destinations {
+        grid-template-columns: repeat(auto-fill, 40%);
+    }
+}
