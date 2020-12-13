@@ -3,6 +3,7 @@
 @import url('./feature/travel-destination.css');
 @import url('./feature/signature-bio.css');
 @import url('./component/article-info.css');
+@import url('./component/header.css');
 
 html {
     font-size: 16px;
@@ -22,7 +23,7 @@ h3 {
     font-size: 1.6em;
 }
 p {
-    line-height: 1.2em;
+    line-height: 1.5em;
 }
 p.bold {
     font-weight: bold;
@@ -42,6 +43,9 @@ a {
 .text-secondary {
     color: #F28241
 }
+.text-secondary-darker {
+    color: #a1420b;
+}
 .text-accent {
     color: #66A3D9;
 }
@@ -54,13 +58,21 @@ a {
 .bg-accent {
     background-color: #66A3D9;
 }
-.usa-logo a.logo-text {
-    color: #F28241;
-    font-size: 1.5rem;
-    font-family: "Open Sans", Arial, sans-serif;
-}
 
 /* START Main Content */
+.grid-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.random-hero-main {
+    background: url('https://picsum.photos/800/300') 0 0 no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 main {
     width: 100%;
     display: flex;
@@ -85,7 +97,7 @@ main .content {
     width: 100%;
 }
 .title {
-    color: #F28241;
+    color: #a1420b;
 }
 
 /* END Main Content */

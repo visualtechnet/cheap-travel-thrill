@@ -20,6 +20,10 @@
     margin: 0;
     background-color: #ffffff;
 }
+.signature-bio .profile-content .author {
+    font-size: 1.4em;
+    font-weight: bold;
+}
 .sharethis-inline-share-buttons {
     float: right;
     clear: both;

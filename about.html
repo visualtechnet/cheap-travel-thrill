@@ -5,22 +5,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Cheap Travel Thrill</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="assets/design/css/uswds.min.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>About my travels</h1>
-    <p>
-        My desire to travel across the beautiful country of Philippines has led me to create this blog. I've
-        always wanted to try Philippine's different local food, visit scenic places, mingle with locales and
-        experience their festivals and local hospitality.</p>
-    <p>
-        I enjoy visiting extraordinary places with breathtaking views, taking photos and videos while saving
-        money from the trip and buying memorabilia and other goodies to support local businesses.
-    </p>
-    <p>
-        Please subscribe and share this article to support me on my next journey. I'd love to hear from you,
-        what would my next trip look like.
-    </p>
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+    <header class="usa-header usa-header--basic bg-accent-cool-lighter">
+        <div class="usa-nav-container">
+            <div class="usa-navbar">
+                <div class="usa-logo" id="basic-logo">
+                    <em class="usa-logo__text">
+                        <a href="/" title="Home" aria-label="Home" class="logo-text">Cheap Travel Thrill</a>
+                    </em>
+                </div>
+                <button class="usa-menu-btn">Menu</button>
+            </div>
+            <nav aria-label="Primary navigation" class="usa-nav">
+                <button class="usa-nav__close"><img src="assets/design/img/close.svg" role="img" alt="close"></button>
+                <ul class="usa-nav__primary usa-accordion">
+                    <li class="usa-nav__primary-item">
+                        <a class="usa-nav__link" href="/index.html"><span>Home</span></a>
+                    </li>
+                    <li class="usa-nav__primary-item">
+                        <a class="usa-nav__link usa-current" href="/about.html"><span>About</span></a>
+                    </li>
+                    <li class="usa-nav__primary-item">
+                        <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+                            aria-controls="basic-nav-section-one"><span>Beaches</span></button>
+                        <ul id="basic-nav-section-one" class="usa-nav__submenu">
+                            <li class="usa-nav__submenu-item">
+                                <a href="blog/white-beach/index.html" class="">White Beach</a>
+                            </li>
+                            <li class="usa-nav__submenu-item">
+                                <a href="blog/wreck-diving/index.html" class="">Wreck Diving</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="usa-nav__primary-item">
+                        <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+                            aria-controls="basic-nav-section-two"><span>Landmarks</span></button>
+                        <ul class="usa-nav__primary usa-accordion">
+                            <li class="usa-nav__primary-item">
+                                <ul id="basic-nav-section-two" class="usa-nav__submenu">
+                                    <li class="usa-nav__submenu-item">
+                                        <a href="blog/shrine/index.html" class="">Shrine</a>
+                                    </li>
+                                    <li class="usa-nav__submenu-item">
+                                        <a href="blog/fort/index.html" class="">Fort</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header> <!-- Header -->
+    <section class="hero-main random-hero-main">
+        <blockquote>
+            <p>There is No Greater Power on this Earth than Story. <br />– Libra Bray</p>
+        </blockquote>
+    </section><!-- Hero Section -->
+    <main id="main-content" class="grid-container">
+        <article>
+            <h1>About my travels</h1>
+            <p> My desire to travel across the beautiful country of Philippines has led me to create this blog. I've
+                always wanted to try Philippine's different local food, visit scenic places, mingle with locales and
+                experience their festivals and local hospitality.</p>
+            <p> I enjoy visiting extraordinary places with breathtaking views, taking photos and videos while saving
+                money from the trip and buying memorabilia and other goodies to support local businesses. </p>
+            <p> Please subscribe and share this article to support me on my next journey. I'd love to hear from you,
+                what would my next trip look like. </p>
+        </article>
+    </main>
+    <footer class="usa-footer usa-footer--slim">
+        <div class="usa-footer__primary-section">
+            <div class="usa-footer__primary-container grid-row">
+                <div class="mobile-lg:grid-col-810">
+                    <nav class="usa-footer__nav" aria-label="Footer navigation">
+                        <ul class="grid-row grid-gap">
+                            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                                <a class="usa-footer__primary-link" href="/index.html">Home</a>
+                            </li>
+                            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                                <a class="usa-footer__primary-link" href="/contact.html">Contact Us</a>
+                            </li>
+                            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                                <a class="usa-footer__primary-link" href="/privacy-policy.html">Privacy Policy</a>
+                            </li>
+                            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                                <a class="usa-footer__primary-link" href="/terms-and-conditions.html">Terms and
+                                    Conditions</a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container usa-footer__return-to-top text-center">
+            <p>&copy;Copyright 2020, Cheap Travel Thrill by Mark Guerrero. All Rights Reserved.</p>
+        </div>
+    </footer><!-- Footer -->
+    <script src="assets/design/js/uswds.min.js"></script>
 </body>
 
 </html>
