@@ -67,3 +67,4 @@ There are no other requirements when viewing file, just a normal editor.
 |Flexbox Based Layout      |Hero Section,  |
 |Grid Based Layout         |   |
 
+v1.1 MAC
