@@ -5,8 +5,10 @@
 @import url('./component/article-info.css');
 @import url('./component/header.css');
 @import url('./feature/related-article.css');
+@import url('./component/footer.css');
 
-html {
+html
+{
     font-size: 16px;
 }
 body {
