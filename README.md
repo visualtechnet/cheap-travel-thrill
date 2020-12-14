@@ -1,6 +1,5 @@
-# Personal Travel Blog Website by Mark Guerrero
-
-My desire to travel across the beautiful country of Philippines has led me to create this blog. I've always wanted to try Philippine's different local food, visit scenic places, mingle with locales and experience their festivals and local hospitality.
+# Cheap Travel Thrill
+Cheap Travel Thrill is a travel resource and blog about my different adventures in the Phillipines including visit to local destinations and scenic places and experience different festivals and local hospitality.
 
 ## Table of Contents
 
@@ -8,6 +7,7 @@ My desire to travel across the beautiful country of Philippines has led me to cr
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
 - [Hosted](#hosted)
+- [Solution](#solution)
 
 ## Features
 
@@ -37,7 +37,7 @@ See [Project Rubric](https://review.udacity.com/#!/rubrics/2667/view) for more i
 Clone the repo
 
 ```
-   git clone https://github.com/visualtechnet/travel-blog
+   git clone https://github.com/visualtechnet/cheap-travel-thrill.git
 
 ```
 
@@ -55,10 +55,16 @@ Go to the folder and run it locally
 
 There are no other requirements when viewing file, just a normal editor.
 
-## Hosted
+## Hosted Server
+[https://quizzical-volhard-d13db5.netlify.app/](https://quizzical-volhard-d13db5.netlify.app/)
 
-You can view it live here
+## Solution Specifications
 
-[Live Preview](https://zealous-keller-bbbd53.netlify.app/)
+## Layout
 
-v1.1
+|   CRITERIA               |SPECIFICATIONS |
+|--------------------------|:-------------:|
+|Flexbox Based Layout      |Hero Section, A couple of sections in article, signature bio, article author subtext  |
+|Grid Based Layout         |Travel Destination Section and Random Posts   |
+
+v1.1 MAC
