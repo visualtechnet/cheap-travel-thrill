@@ -4,6 +4,7 @@
 @import url('./feature/signature-bio.css');
 @import url('./component/article-info.css');
 @import url('./component/header.css');
+@import url('./feature/related-article.css');
 
 html {
     font-size: 16px;
