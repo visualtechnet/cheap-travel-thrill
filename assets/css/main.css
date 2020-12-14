@@ -100,8 +100,12 @@ main .content {
 .title {
     color: #a1420b;
 }
-
 /* END Main Content */
+.article-img {
+    display: block;
+    max-width: 100%;
+    margin: 10px 0;
+}
 
 @media screen and (max-width: 414px) {
     main .content {
