@@ -3,11 +3,13 @@
     justify-content: center;
     flex-flow: column nowrap;
 }
+
 .article-info .article-title {
     margin: 20px 0 0 0;
     color: #2168A6;
     font-weight: bold;
 }
+
 .article-info .article-post-info {
     font-style: italic;
     font-weight: bold;
@@ -17,6 +19,7 @@
     text-align: left;
 
 }
+
 .article-info .sharethis-inline-share-buttons {
     display: flex;
     justify-content: center;

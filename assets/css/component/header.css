@@ -3,23 +3,27 @@
     font-size: 1.56rem;
     font-family: "Open Sans", Arial, sans-serif;
 }
+
 .usa-current {
     background-color: #26292d
 }
+
 .usa-header--basic .usa-nav {
     padding-bottom: 0;
 }
+
 .usa-header--basic .usa-nav__link:hover::after,
 .usa-header--basic .usa-nav__primary-item>.usa-current::after {
     content: none;
 }
-.usa-current > span,
+
+.usa-current>span,
 .usa-accordion__button.usa-nav__link.usa-current,
-.usa-accordion__button.usa-nav__link.usa-current > span,
-.usa-nav__submenu-item > a,
+.usa-accordion__button.usa-nav__link.usa-current>span,
+.usa-nav__submenu-item>a,
 .usa-nav__primary button[aria-expanded=true],
 .usa-nav__submenu,
-.usa-current > button {
+.usa-current>button {
     background-color: #26292d;
     color: #fff;
 }
