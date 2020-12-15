@@ -1,5 +1,14 @@
 @import url('../third-party/mailchimp-embed.css');
 
+.usa-footer {
+    margin-top: 10%;
+}
+
 .email-signup {
     margin-top: 5px;
+}
+
+.grid-container.usa-footer__return-to-top {
+    display: flex;
+    justify-content: center;
 }

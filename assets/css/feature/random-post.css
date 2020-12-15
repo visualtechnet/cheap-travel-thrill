@@ -1,6 +1,7 @@
 .random-posts {
     display: grid;
     grid-template-columns: repeat(2, 45%);
+    grid-gap: 5%;
 }
 
 .random-posts .random-post-item {
