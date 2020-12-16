@@ -113,6 +113,11 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
     width: 100%;
 }
 
+.parent-subscribe {
+    position: absolute; 
+    left: -5000px;
+}
+
 @media (max-width: 768px) {
     #mc_embed_signup input.email {
         width: 100%;

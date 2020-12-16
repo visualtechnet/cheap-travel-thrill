@@ -134,6 +134,11 @@ main .content {
 .caption {
     font-size: small;
     font-style: italic;
+    text-align: center;
+}
+
+.zero-border {
+    border: 0;
 }
 
 @media screen and (max-width: 414px) {
